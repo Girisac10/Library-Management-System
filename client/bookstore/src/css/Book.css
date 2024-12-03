@@ -1,0 +1,81 @@
+/* Books Component  */
+.book-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+    background-color: #ffffff;
+  }
+  
+/* BookCard.css */
+
+.book-card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .book-card  .book-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .book-card  .book-details {
+    padding: 10px;
+  }
+  
+  .book-card  .book-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f5f5f5; 
+  }
+/*   
+  .book-card  button {
+    /* background-color: #34db3c; */
+    /* color: #fff;
+    border: none; */
+    /* padding: 8px 12px; */
+    /* padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; */
+  
+    /* &:hover {
+      background-color: #2980b9;
+    } */
+  /* } */ 
+  .book-card .btn-del {
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .book-card .btn-edit {
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+  }
+
+  .btn-login:disabled{
+    cursor: not-allowed;
+    background-color: #6263628f;
+  }
+  
+  
